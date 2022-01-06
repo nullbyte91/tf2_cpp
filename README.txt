@@ -1,0 +1,1 @@
+docker run -v /etc/localtime:/etc/localtime:ro --rm -it -e http_proxy -e https_proxy -e ftp_proxy -v `pwd`:/work tf_cpp:v1 bash
